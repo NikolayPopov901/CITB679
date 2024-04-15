@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#inbox-banner {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Green color for inbox banner */
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+.reply-form {
+    display: none;
+    margin-top: 10px;
+}
+
+.show-form-button,
+.show-history-button,
+.reply-button,
+.cancel-button,
+.delete-button {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 5px; /* Adjust the margin as needed */
+}
+
+.show-history-button,
+.reply-button,
+.cancel-button,
+.delete-button {
+    margin-left: 5px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.popup.hide {
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.back-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
+
+/* Message history styles */
+#messageHistoryBanner {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50; /* Green color for message history banner */
+    margin-top: 20px;
+}
+
+#messageHistoryTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#messageHistoryTable th,
+#messageHistoryTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#messageHistoryTable tr:hover {
+    background-color: #e0e0e0;
+}
+
+        #messageHistoryTable {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        #messageHistoryTable th, #messageHistoryTable td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #messageHistoryTable th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #messageHistoryTable tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        #messageHistoryBanner {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        #hideHistoryButton {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #hideHistoryButton:hover {
+            background-color: #45a049;
+        }
+
+        #messageHistoryContainer {
+            display: none;
+        }

@@ -1,0 +1,4 @@
+[10-Jun-2023 11:35:38 Europe/Berlin] 
+[10-Jun-2023 11:35:38 Europe/Berlin] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in C:\xampp\htdocs\collections-website\validation.php on line 20
+[10-Jun-2023 11:35:44 Europe/Berlin] 
+[10-Jun-2023 11:35:44 Europe/Berlin] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in C:\xampp\htdocs\collections-website\validation.php on line 20

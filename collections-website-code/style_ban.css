@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(test.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  max-width: 540px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.form-control {
+  width: 100%; /* Full-width form controls */
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid #ced4da; /* Add a border for better visibility */
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Add border-radius for a rounded appearance */
+  box-sizing: border-box; /* Include padding and border in the box's total width and height */
+}
+
+.btn {
+  width: 100%; /* Full-width buttons */
+}
+

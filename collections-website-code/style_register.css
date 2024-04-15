@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(test.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  max-width: 540px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 10px; /* Add some margin between form controls */
+}
+
+.form-control {
+  width: 400px; /* Make form controls full-width */
+  background-color: rgba(255, 255, 255, 1) !important; /* Set a solid white background */
+}
+
+.btn {
+  width: 400px; /* Make buttons full-width */
+}
+
+/* Adjust the label alignment only for the registration form */
+.registration-right .form-group label {
+  text-align: left;
+  display: block;
+}
+

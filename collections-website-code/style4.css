@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(test.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjusted height */
+  max-width: 400px; /* Adjusted max-width */
+  margin: auto; /* Center the container horizontally */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Adjusted margin */
+}
+
+.form-control {
+  width: 100%; /* Adjusted width */
+  background-color: rgba(255, 255, 255, 1) !important; /* Set a solid white background */
+}
+
+.btn, .back-button {
+  width: 100%; /* Adjusted width */
+  margin-bottom: 10px; /* Added margin between buttons */
+}
+
+/* Align the buttons next to each other */
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Adjusted width */
+}
+
+/* Reset Bootstrap styles for buttons */
+.btn, .btn-secondary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}

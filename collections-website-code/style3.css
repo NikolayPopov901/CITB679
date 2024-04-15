@@ -1,0 +1,110 @@
+/* style_search.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('test.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the body height to the full viewport height */
+}
+
+.container-bg {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 500px;
+    position: relative; /* Position relative for absolute positioning of back button */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.result-table th, .result-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.no-results {
+    color: #ff0000;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.back-button {
+    position: absolute; /* Position absolute for positioning */
+    bottom: 10px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* New styles for the gallery layout */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage as needed */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
